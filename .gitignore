@@ -64,8 +64,8 @@ docker-compose.override.yml
 .env.*.local
 
 # Data files
-*.csv
-!myport2.csv  # Keep our default dataset
+#*.csv
+#!myport2.csv  # Keep our default dataset
 
 # Documentation
 docs/_build/
