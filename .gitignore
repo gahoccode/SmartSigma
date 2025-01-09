@@ -70,3 +70,6 @@ docker-compose.override.yml
 # Documentation
 docs/_build/
 _build/
+ref.md
+instructions.md
+rules.md
