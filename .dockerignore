@@ -1,0 +1,40 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# VS Code
+.vscode/
+
+# Project specific
+*.csv
+!myport2.csv  # Include our default dataset
+*.ipynb
+README.md
+instructions.md
+ref.md
+rules.md
+
+# Development files
+mvo.py  # Exclude MVO development file
+hrp.py  # Exclude HRP development file

@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  smartsigma:
+    build: .
+    ports:
+      - "8501-8510:8501"  # This allows Docker to try ports 8501 through 8510
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
